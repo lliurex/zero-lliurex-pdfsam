@@ -1,0 +1,14 @@
+Source: zero-lliurex-pdfsam
+Section: x11
+Priority: optional
+Maintainer: Equipo LliureX <lliurex@gva.es>
+Build-Depends: debhelper (>= 13), zero-dev, llxsrchelper,inkscape (>= 0.47)
+Standards-Version: 4.1.2
+
+Package: zero-lliurex-pdfsam
+Architecture: all
+Section: education
+Depends: zero-center,epi-gtk
+Description: pdfsam installer
+  PDF tool for merge, split and rotate
+

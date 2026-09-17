@@ -1,0 +1,3 @@
+zero-lliurex-pdfsam.install/*     /usr/share/zero-lliurex-pdfsam
+zero-lliurex-pdfsam.zmds/*app     /usr/share/zero-center/applications
+zero-lliurex-pdfsam.zmds/*zmd     /usr/share/zero-center/zmds
