@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+<id>zero.lliurex.pdfsam</id>
+<metadata_license>CC0-1.0</metadata_license>
+<name>PDFSam Basic</name>
+<name xml:lang="ca">PDFSam Basic</name>
+<name xml:lang="es">PDFSam Basic</name>
+<summary>PDF tool for split, rotate and merge</summary>
+<summary xml:lang="es">Une, divide y rota ficheros PDF</summary>
+<summary xml:lang="ca">Unir, dividir i rotar fitxers PDF</summary>
+<description>
+<p>PDFsam (PDF Split and Merge) is a free, open-source desktop app to split, merge, extract, rotate and mix PDF files. Your files never leave your computer.</p>
+<p xml:lang="es">PDFSam (PDF Split and Merge) es una aplicación gratuita de código abierto para dividr, unir, extraer, rotar y reordenar ficheros PDF.</p>
+<p xml:lang="ca">PDFSam (PDF Split and Merge) es un programari gratuit de codi obert per dividr, unir, extraure, rotar i reordenar fitxers PDF.</p>
+</description>
+<categories>
+<category>LliureX</category>
+<category>Office</category>
+</categories>
+<icon type="stock">pdfsam</icon>
+<keywords>
+<keyword>basic</keyword>
+<keyword>pdf</keyword>
+<keyword>pdfarranger</keyword>
+</keywords>
+<keywords xml:lang="ca">
+<keyword>oficina</keyword>
+</keywords>
+<keywords xml:lang="es">
+<keyword>oficina</keyword>
+</keywords>
+</component>

@@ -1,0 +1,33 @@
+#!/bin/bash
+
+
+ACTION="$1"
+PKGNAME=pdfsam
+shift
+source /usr/share/zero-lliurex-pdfsam/pdfsam.url
+
+PACKAGE_LIST=$@
+
+case $ACTION in
+	getStatus)
+		TEST=$( dpkg-query -s  $PKGNAME 2> /dev/null| grep Status | cut -d " " -f 4 )
+		if [ "$TEST" == 'installed' ];then
+			exit 1
+		fi
+	;;
+	installPackage)
+	 	DEST_DOWNLOAD=$(mktemp --suffix .deb)
+		wget ${PDFSAM_URL} -O ${DEST_DOWNLOAD}
+		dpkg -i -y ${DEST_DOWNLOAD}
+		rm ${DEST_DOWNLOAD}
+	;;
+	remove)
+		apt-get remove -y $PKGNAME
+		TEST=$( dpkg-query -s  $PKGNAME 2> /dev/null| grep Status | cut -d " " -f 4 )
+		if [ "$TEST" == 'installed' ];then
+			exit 1
+		fi
+	;;	
+esac	
+
+exit 0

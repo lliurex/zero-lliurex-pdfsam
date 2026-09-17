@@ -1,0 +1,15 @@
+Name=zero-lliurex-pdfsam
+Name[es]=Instalador de pdfsam
+Name[en]=pdfsam installer
+Name[ca_ES]=Instal·lador de pdfsam
+Name[ca@valencia]=Instal·lador de pdfsam
+Name[qcv]=Instal·lador de pdfsam
+Comment=Open source software to split, merge and rotate PDF files
+Comment[es]=Aplicación de código abierto para unir, dividir o rotar PDF
+Comment[ca]=Programari de codi obert per a unir, dividir o rotar PDF
+Icon=zero-lliurex-pdfsam
+Category=Software
+ScriptPath=zero-lliurex-pdfsam.zmd
+Using=pkexec
+Locks=zero-lliurex-pdfsam
+Groups=admins;sudo;teachers
