@@ -7,8 +7,12 @@ shift
 source /usr/share/zero-lliurex-pdfsam/pdfsam.url
 
 PACKAGE_LIST=$@
-
+DEST_DOWNLOAD=$(mktemp --suffix .deb)
 case $ACTION in
+
+	download)
+		echo 0
+	;;
 	getStatus)
 		TEST=$( dpkg-query -s  $PKGNAME 2> /dev/null| grep Status | cut -d " " -f 4 )
 		if [ "$TEST" == 'installed' ];then
@@ -16,9 +20,8 @@ case $ACTION in
 		fi
 	;;
 	installPackage)
-	 	DEST_DOWNLOAD=$(mktemp --suffix .deb)
 		wget ${PDFSAM_URL} -O ${DEST_DOWNLOAD}
-		dpkg -i -y ${DEST_DOWNLOAD}
+		dpkg -i ${DEST_DOWNLOAD}
 		rm ${DEST_DOWNLOAD}
 	;;
 	remove)
