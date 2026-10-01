@@ -1,3 +1,9 @@
+zero-lliurex-pdfsam (6.0.5-2lliurex) jammy; urgency=medium
+
+  * Fix banner
+
+ -- Juanma1980 <juanma1980@gmail.com>  Thu, 01 Oct 2026 07:38:43 +0200
+
 zero-lliurex-pdfsam (6.0.5-1lliurex) jammy; urgency=medium
 
   * Initial release
