@@ -1,6 +1,7 @@
-zero-lliurex-pdfsam (6.0.5-2lliurex) jammy; urgency=medium
+zero-lliurex-pdfsam (6.0.5-3lliurex) jammy; urgency=medium
 
   * Fix banner
+  * Fix getStatus return value 
 
  -- Juanma1980 <juanma1980@gmail.com>  Thu, 01 Oct 2026 07:38:43 +0200
 
