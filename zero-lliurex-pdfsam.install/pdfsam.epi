@@ -1,6 +1,6 @@
 {
 	"type":"file",
-	"pkg_list": [{"name":"pdfsam","custom_name":"pdfsam: PDF tool for merge, split and rotate files","custom_icon":"pdfsam.png"}],
+	"pkg_list": [{"name":"pdfsam-basic","custom_name":"pdfsam: PDF tool for merge, split and rotate files","custom_icon":"pdfsam.png"}],
 	"script": {"name":"/usr/share/zero-lliurex-pdfsam/pdfsam_script","remove":true,"getStatus":true,"download":true},
 	"custom_icon_path":"/usr/share/zero-lliurex-pdfsam/",
 	"zomando":"zero-lliurex-pdfsam"
