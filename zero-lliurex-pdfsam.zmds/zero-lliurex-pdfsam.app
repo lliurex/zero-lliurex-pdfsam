@@ -13,3 +13,4 @@ ScriptPath=zero-lliurex-pdfsam.zmd
 Using=pkexec
 Locks=zero-lliurex-pdfsam
 Groups=admins;sudo;teachers
+Show=False
