@@ -1,3 +1,9 @@
+zero-lliurex-pdfsam (6.0.5-4lliurex) noble; urgency=medium
+
+  * Mark app as hidden in zero center
+
+ -- Juanma1980 <juanma1980@gmail.com>  Wed, 04 Nov 2026 10:31:56 +0100
+
 zero-lliurex-pdfsam (6.0.5-3lliurex) noble; urgency=medium
 
   * Update banner
