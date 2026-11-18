@@ -1,3 +1,9 @@
+zero-lliurex-pdfsam (6.0.5-5lliurex) noble; urgency=medium
+
+  * Add appstream info
+
+ -- Juanma1980 <juanma1980@gmail.com>  Wed, 18 Nov 2026 11:21:28 +0100
+
 zero-lliurex-pdfsam (6.0.5-4lliurex) noble; urgency=medium
 
   * Mark app as hidden in zero center
