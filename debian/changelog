@@ -1,3 +1,9 @@
+zero-lliurex-pdfsam (6.0.5-4lliurex) jammy; urgency=medium
+
+  * Generate appstream info
+
+ -- Juanma1980 <juanma1980@gmail.com>  Wed, 18 Nov 2026 11:38:23 +0100
+
 zero-lliurex-pdfsam (6.0.5-3lliurex) jammy; urgency=medium
 
   * Fix banner
